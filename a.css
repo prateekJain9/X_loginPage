@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana,arial,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #242d34;
+}
+.login-box{
+    background-color: black;
+    padding: 15px 160px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 15px;
+}
+.logo{
+    width: 45px;
+    margin-bottom: 30px;
+}
+.login-box h2{
+    margin-bottom: 35px;
+    margin-right: 120px;
+}
+.login-box button img{
+    width:18px;
+    margin-right: 8px;
+}
+.login-box button{
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px 0;
+    border-radius: 25px;
+    border: 1px ;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: 550;
+}
+.login-box hr{
+    border: 0;
+    height: 1px;
+    background: rgba(128, 128, 128, 0.411);
+    margin: 5px;
+}
+.login-box span{
+    color: white;
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: black;
+    font-size: 15px;
+    margin-top: -16px;
+}
+.login-box input{
+    width:100%;
+    background: transparent;
+    border: 1px solid #3e3f40;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 3px;
+    margin: 10px 0;
+    caret-color: white;
+    color:white;
+    font-weight: 500;
+    line-height: 20px;
+}
+.login-box .fp {
+    background-color: black;
+    color:white;
+    border: 0.5px solid white;
+}
+.login-box p{
+    text-align: left;
+    font: 14px;
+    color:#52555a;
+    margin: 40px 0 45px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    
+}
